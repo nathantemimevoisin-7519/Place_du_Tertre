@@ -8,6 +8,7 @@ function create_piece(image) {
     piece.style.backgroundImage = `url(${image})` //"url(Adolphe_Thiers_Nadar.jpg)";
     piece.style.left = `${Math.random() * 1000}px`;
     piece.style.top = `${Math.random() * 250}px`;
+    piece.style.rotate = `${Math.random() * 360}deg`;
     espace.appendChild(piece);
     console.log(piece);
 }
