@@ -1,7 +1,7 @@
 const espace = document.getElementById("espace")
 console.log(espace);
-images = ["abbaye_de_montmartre.jpg", "Adolphe_Thiers_Nadar.jpg", "execution_lecomte.jpg", "Le_siecle.jpg", "Louise_Michel.jpg", "plaque_voiture.jpg", "telegraphe.png"]
-audios = ["abbaye royale Montmartre.mp3", "thiers.mp3", "lecomte.mp3", "siecle.mp3", "michel.mp3", "voiture.mp3", "telegraphe.mp3"]
+images = ["abbaye_de_montmartre.jpg", "Adolphe_Thiers_Nadar.jpg", "execution_lecomte.jpg", "Le_siecle.jpg", "Louise_Michel.jpg", "plaque_voiture.jpg", "telegraphe.png", "bouscarat.png"]
+audios = ["abbaye royale Montmartre.mp3", "thiers.mp3", "lecomte.mp3", "siecle.mp3", "michel.mp3", "voiture.mp3", "telegraphe.mp3", "bouscarat.mp3"]
 let zCompteur = 0
 
 function create_piece(num) {
@@ -23,7 +23,7 @@ function create_piece(num) {
         piece.style.border = "1px solid black"
     }
 }
-for (let i = 0; i < 7; i++) {
+for (let i = 0; i < 8; i++) {
     console.log(images[i])
     create_piece(i)
 }
