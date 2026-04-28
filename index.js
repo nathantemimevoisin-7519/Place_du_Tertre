@@ -16,12 +16,13 @@ function create_piece(num) {
 
     piece.onpointerdown = function (e) {
         piece.style.zIndex = ++zCompteur
-        piece.style.border = "3px solid green"
+        //piece.style.border = "3px solid green"
         new Audio(audios[num]).play()
     }
-    piece.onpointerup = function (e) {
-        piece.style.border = "1px solid black"
-    }
+
+    //piece.onpointerup = function (e) {
+    //piece.style.border = "1px solid black"
+    //}
 }
 for (let i = 0; i < 8; i++) {
     console.log(images[i])
